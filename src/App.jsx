@@ -1,11 +1,11 @@
-import ReactLogo from './assets/react.svg?react';
-import reactLogo from './assets/react.svg';
-export const App = () => {
-	return (
-		<div>
-			<h1>Hello world</h1>
-			<ReactLogo />
-      <img src={reactLogo} alt="react Logo" />
-		</div>
-	);
-};
+import './App.module.css'
+
+function App() {
+  return (
+    <div className="container">
+      <h1>Hello Vite + React!</h1>
+    </div>
+  );
+}
+
+export default App;
